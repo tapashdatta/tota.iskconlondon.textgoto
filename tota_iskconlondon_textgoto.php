@@ -177,7 +177,7 @@ class tota_iskconlondon_textgoto extends CRM_SMS_Provider {
     $postDataArray = array(
       'user'     => $this->_providerInfo['username'],
       'password' => $this->_providerInfo['password'],
-      'api_id'    => $this->_providerInfo['api_params']['api_id']
+//      'api_id'    => $this->_providerInfo['api_params']['api_id']
     );
 
     if (array_key_exists('is_test', $this->_providerInfo['api_params']) &&
