@@ -144,7 +144,7 @@ function _textgoto_civix_civicrm_managed(&$entities) {
     $es = include $file;
     foreach ($es as $e) {
       if (empty($e['module'])) {
-        $e['module'] = 'org.civicrm.sms.textgoto';
+        $e['module'] = 'tota.iskconlondon.textgoto';
       }
       $entities[] = $e;
     }
