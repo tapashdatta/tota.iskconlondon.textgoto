@@ -65,7 +65,7 @@ class tota_iskconlondon_textgoto extends CRM_SMS_Provider {
    */
   protected $_fp;
 
-  public $_apiURL = "https://api.textgoto.com";
+  public $_apiURL = "http://textgoto.co.uk/api/xmlapi.aspx";
 
   protected $_messageType = array(
     'SMS_TEXT',
